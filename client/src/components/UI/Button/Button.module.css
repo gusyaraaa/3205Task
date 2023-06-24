@@ -1,0 +1,19 @@
+.button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: var(--green);
+  color: var(--white);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+
+.button_disabled {
+    background-color: var(--gray);
+    cursor: default;
+}
+
+.button:not(.button_disabled):hover {
+  background-color: var(--light-green);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+}

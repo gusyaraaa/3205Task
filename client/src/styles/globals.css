@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    background-color: var(--dark-white);
+}
